@@ -40,3 +40,6 @@
     align-items: center;
     position: relative;
 }
+.lista-menu__titulo{
+    color: var(--laranja);
+}

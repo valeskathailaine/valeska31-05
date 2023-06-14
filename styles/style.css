@@ -1,14 +1,12 @@
-:root{
-    --cor-de-fundo: #EBECEE;
+@import url ("style/heard.css");
+:root {
+    --cor-de-fundo: #2e60c4;
+    --branco:# FFFFFF;
+    --laranja: #EB9BOO;
 }
 body {
     background-color:var(--cor-de-fundo);
 }
 h1{
-    background-color: white;
-}
-@import url ("style/heard.css");
-:root {
-    --cor-de-fundo: #EBECEE;
-    --branco:# FFFFFF;
+    background-color: rgb(194, 63, 63);
 }
