@@ -64,20 +64,18 @@
    <!-- Additional required wrapper -->
    <div class="swiper-wrapper">
      <!-- Slides -->
-     <div class="swiper-slide"><img src="img/Acessibilidade.png"></div>
-     <div class="swiper-slide"><img src="img/Angular.png"></div>
-     <div class="swiper-slide"><img src="img/ApacheKafKa.png"></div>
-      <div class="swiper-slide"><img src="Arquitetura.png"></div>
-         <div class="swiper-slide"><img src="Gestão2.png"></div>
-            <div class="swiper-slide"><img src="Guia Front-end.png"></div>
-               <div class="swiper-slide"><img src="Javascript.png"></div>
-                  <div class="swiper-slide"><img src="Liderança.png"></div>
-                     <div class="swiper-slide"><img src="MEAN.png"></div>
-                        <div class="swiper-slide"><img src="MetricasAgeis.png"></div>
-                           <div class="swiper-slide"><img src="portugol.png"></div>
-                              <div class="swiper-slide"><img src="Tuning.png"></div>
-
-                                       .....
+     <div class="swiper-slide"><img src="img/Acessibilidade.png" alt="Livro sobre Acessibilidade da AluraBooks"></div>
+     <div class="swiper-slide"><img src="img/Angular.png" alt="Livro sobre Angular da AluraBooks"></div>
+     <div class="swiper-slide"><img src="img/ApacheKafKa.png" alt="Livro sobre ApacheKafKa da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/Arquitetura.png" alt="Livro sobre Arquitetura da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/Gestão2.png" alt="Livro sobre Gestão2 da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="Livro sobre Guia da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre Javascript da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre Liderança da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/MEAN.png" alt="Livro sobre MEAN da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/MetricasAgeis.png" alt="Livro sobre MetricasAgeis da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/Portugol.png" alt="Livro sobre Portugol da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/Tuning.png" alt="Livro sobre Tuning da AluraBooks"></div>
    </div>
    <!-- If we need pagination -->
    <div class="swiper-pagination"></div>
@@ -87,15 +85,38 @@
    <div class="swiper-button-next"></div>
  
    <!-- If we need scrollbar -->
-   <div class="swiper-scrollbar"></div>
- </div>
+
+   </div>
+     <div class="card">
+
+      <div class="card__descricao">
+
+         <div class="descricao">
+
+            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+
+            <h2 class="descricao__titulo-livro">Angular 11 e firebase</h2>
+            <p class="dscricao__texto">Construindo uma aplicação integrada com
+                a plataforma do Google.</p> 
+         </div>
+
+         <img src="img/Angular.svg" class="descricao__imagem">
+             </div>
+         </div>
+     </div>
          </section>
          <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
       </h2>
-      const swiper = new Swiper('.swiper', {
-         speed: 400,
-         spaceBetween: 100,
+      <script>swiper = new Swiper('.swiper',
+
+         spaceBetween: 10,
+         SlidesPerView: 3,
+         pagination: {
+         el: '.swiper-pagination',
+         type: 'bullets',
        });
+
+      </script>
     </body>
 
 </html>

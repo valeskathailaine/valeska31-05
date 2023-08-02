@@ -1,0 +1,14 @@
+.carrosel__titulo{
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: lem 0 0.5em 0;
+}
+.card_descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
